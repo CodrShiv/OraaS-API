@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ORaaS API</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <form id="queryParamsForm">
+        <div>
+            <label>
+                <span>TLE Line 1</span>
+                <input type="text" id="line1" required autocomplete="off"/>
+              </label>
+        
+              <label>
+                <span>TLE Line 2</span>
+                <input type="text" id="line2" required autocomplete="off"/>
+              </label>
+        </div>
+      <button id="formSubmit" type="submit">Get Output</button>
+    </form>
+    <table id="values">
+
+    </table>
+  </body>
+</html>
